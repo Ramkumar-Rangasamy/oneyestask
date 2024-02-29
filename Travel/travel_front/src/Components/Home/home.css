@@ -1,0 +1,92 @@
+.home_head{
+    background-color: rgb(0,33,68);
+    color: aliceblue;
+    font-family:  sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    padding:50px;
+    font-size: 20px;
+    
+}
+
+.home_head span{
+    color: yellow;
+}
+.head_book{
+    background-color: #eef2f6;
+    padding: 20px;
+    border-radius: 0.5rem 0.5rem 0 0;
+    border-bottom: 1px solid #b1b3be;
+   
+}
+
+.input-radio{
+ color:  rgb(0,110,231);
+ width:18px;
+ height:15px;
+ 
+}
+
+
+.underline{
+    border: 1px solid black;
+    height: 40px;
+   
+}
+
+/* Style for the select element */
+.select-box {
+    width: 200px; /* Adjust the width as needed */
+    padding: 10px;
+    margin-bottom: 50px;
+    font-size:15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    
+    appearance: none;
+  }
+  
+  /* Style for the options within the select element */
+  .select-box option {
+    background-color: #f9f9f9;
+  color: #333;
+  padding: 10px;
+  }
+  
+  /* Style for the selected option */
+  .select-box option:checked {
+    background-color: #ccc; /* Change background color of selected option */
+    color: #070000; /* Change text color of selected option */
+    padding: 20px;
+    
+  }
+  
+  /* Hover effect for select element */
+  .select-box:hover {
+    border-color: #3d3939; /* Change border color on hover */
+  }
+  
+  /* Hover effect for options */
+  .select-box option:hover {
+    background-color: #706b6b; /* Change background color of options on hover */
+  }
+
+
+  .color-back{
+    background-image:url('https://media.istockphoto.com/id/1363583879/photo/young-asia-lady-use-cellphone-order-online-shopping-product-and-paying-bills-with-banking-app.jpg?s=612x612&w=0&k=20&c=HamZshhGmdo3gRvTs7NJVHrkaag5sFKVFgJS3Ls7G44=');
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-size: cover;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+.banner-video {
+  background-image: url('https://newsroom.haas.berkeley.edu/wp-content/uploads/2023/10/Airline-pricing_Olivia-Natan.jpg');
+    width: 100%;
+    height: 83vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Added position relative */
+  }
+  
+  .banner-video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+  }
+  
+  .content {
+    position: absolute; /* Changed to absolute */
+    top: 0; /* Added top: 0 */
+    left: 0; /* Added left: 0 */
+    z-index: 1;
+    width: 100%;
+    height: 83vh;
+    background-image: linear-gradient(rgba(1, 0, 5, 0.3), rgba(4, 1, 17, 0.3));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title {
+    text-decoration: none;
+    font-size: 4vh;
+    color: rgb(255, 255, 255);
+    padding: 14px 17px;
+    text-align: center;
+  }
+  
+  .title h1 {
+    font-size: 10vh;
+    text-shadow: 2px black;
+    transition: ease 0.3s;
+  }
+  
+  .title h1:hover {
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+  }
+  
+  .button-landing {
+    display: inline-block;
+    margin-top: 5vh;
+    font-size: 25px;
+    padding: 10px 30px;
+    color: rgb(21, 74, 74);
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: ease 0.30s;
+  }
+  
+  .button-landing:hover {
+    transform: scale(1.1);
+    color: white;
+    background-color:green;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.4);
+    padding: 5px 25px;
+    text-decoration: none;
+  }
+
+
+  
+  

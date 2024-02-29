@@ -1,0 +1,35 @@
+
+
+
+.cheapoair-container {
+    padding: 20px;
+    background-color:rgb(208, 201, 201) ;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    flex: 1 1 50%; /* Two features per row on larger screens */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  p {
+    margin-bottom: 0;
+  }
+  
+  /* Media query for mobile view */
+  @media (max-width: 768px) {
+    .feature {
+      flex: 1 1 100%; /* One feature per row on smaller screens */
+    }
+  }
+  
+

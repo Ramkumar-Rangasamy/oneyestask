@@ -1,0 +1,8 @@
+.card:hover{
+    border: 1px solid black;
+}
+
+
+.card a:hover {
+    text-decoration: none;
+  }

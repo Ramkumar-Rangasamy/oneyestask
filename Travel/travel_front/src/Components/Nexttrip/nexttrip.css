@@ -1,0 +1,17 @@
+.found-card h4{
+    font-weight: bolder;
+    font-size: 24px;
+}
+.found-card span{
+    color: green;
+}
+.style-hr{
+  
+    border: 3px solid;
+    border-image: linear-gradient(to right, #1dce52, #e9ee54, #d2512a, #e70303) 1;
+}
+
+.para-card{
+    text-align: justify;
+    font-size: 11px;
+}
