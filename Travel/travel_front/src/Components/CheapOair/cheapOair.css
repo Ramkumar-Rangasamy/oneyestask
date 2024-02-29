@@ -1,9 +1,11 @@
 
-
-
 .cheapoair-container {
     padding: 20px;
     background-color:rgb(208, 201, 201) ;
+    margin: 3rem 0 0;
+    padding-top: 45px;
+    min-height: 130px;
+    border-radius: 5px;
   }
   
   .row {
